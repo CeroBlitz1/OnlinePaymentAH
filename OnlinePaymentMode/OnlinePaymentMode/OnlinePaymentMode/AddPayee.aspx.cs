@@ -17,7 +17,7 @@ namespace OnlinePaymentMode
         string EmailId;
         protected void Page_Load(object sender, EventArgs e)
         {
-            EmailId = Session["EmailId"].ToString();
+            EmailId = Session["EmailId"].ToString(); // reading session from the previous page
         }
 
         protected void btnreg_Click(object sender, EventArgs e)//testcommmet
