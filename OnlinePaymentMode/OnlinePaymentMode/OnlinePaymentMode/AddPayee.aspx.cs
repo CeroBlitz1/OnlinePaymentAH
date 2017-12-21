@@ -20,7 +20,7 @@ namespace OnlinePaymentMode
             EmailId = Session["EmailId"].ToString(); // reading session from the previous page
         }
 
-        protected void btnreg_Click(object sender, EventArgs e)//testcommmet
+        protected void btnreg_Click(object sender, EventArgs e)//testcommmet test ajax brach
         {
             try
             {
