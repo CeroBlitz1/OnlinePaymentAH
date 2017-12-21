@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="OnlinePaymentMode.index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="CSS/bootstrap.css" rel="stylesheet">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="CSS/bootstrap.js"></script>
+    <script type="text/javascript" src="CSS/bootstrap.min.js"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default" style="background-color: black;">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.aspx" style="color: #FFFFFF">ONLINE PAYMENT MODE</a>
+            </div>
+            <ul class="nav navbar-nav" style="float: right">
+                <li><a href="index.aspx" style="color: #FFFFFF">Home</a></li>
+                <li><a href="registration.aspx" style="color: #FFFFFF">Register</a></li>
+                <li><a href="login.aspx" style="color: #FFFFFF">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
