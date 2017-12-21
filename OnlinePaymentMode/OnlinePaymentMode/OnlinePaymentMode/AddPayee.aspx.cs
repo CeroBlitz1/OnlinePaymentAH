@@ -24,7 +24,7 @@ namespace OnlinePaymentMode
         {
             try
             {
-                string strcon = ConfigurationManager.ConnectionStrings["BillPayment"].ToString();
+                string strcon = ConfigurationManager.ConnectionStrings["BillPayment"].ToString();//test 2
                 con = new SqlConnection(strcon);
                 con.Open();
                 cmd = new SqlCommand("insert into payeetbl values (@CEid,@Name,@MobileNumber,@EmailId,@AccountNumber,@BankName,@BankAddress)", con);
