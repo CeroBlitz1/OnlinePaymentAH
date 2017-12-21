@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace OnlinePaymentMode
 {
-    public partial class AddPayee : System.Web.UI.Page
+    public partial class AddPayee : System.Web.UI.Page  
     {
         SqlConnection con;
         SqlCommand cmd;
@@ -20,7 +20,7 @@ namespace OnlinePaymentMode
             EmailId = Session["EmailId"].ToString();
         }
 
-        protected void btnreg_Click(object sender, EventArgs e)
+        protected void btnreg_Click(object sender, EventArgs e)//testcommmet
         {
             try
             {
